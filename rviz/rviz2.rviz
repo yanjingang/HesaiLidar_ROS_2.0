@@ -4,6 +4,7 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
+        - /Global Options1
         - /PointCloud21
       Splitter Ratio: 0.5
     Tree Height: 787
@@ -71,14 +72,14 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /lidar_points
+        Value: /sensors/lidar/points
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: hesai_lidar
+    Fixed Frame: lidar_link
     Frame Rate: 30
   Name: root
   Tools:
@@ -121,7 +122,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 9.051994323730469
+      Distance: 23.75714111328125
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -136,10 +137,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.550397515296936
+      Pitch: 0.5553975105285645
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.857218265533447
+      Yaw: 4.852218151092529
     Saved: ~
 Window Geometry:
   Displays:
